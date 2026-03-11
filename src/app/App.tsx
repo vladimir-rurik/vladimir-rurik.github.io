@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
+import photo from './cv_photo.jpg';
 import './App.css';
 
 function App() {
@@ -10,29 +10,127 @@ function App() {
       name: 'English',
       text: (
         <div style={{ textAlign: 'left', fontSize: '14px' }}>
-          <h2>Goals</h2>
-          <p>I have an MVP prototype written in ClojureScript: https://picklematch.vercel.app</p>
-          <p>By the end of this course I want to polish it, add all the bells and whistles, and make it truly shine.</p>
+          <img
+            src={photo}
+            alt="Vladimir Rurik"
+            style={{
+              width: '150px',
+              height: '150px',
+              borderRadius: '50%',
+              objectFit: 'cover',
+              marginBottom: '20px',
+              border: '3px solid #61dafb',
+            }}
+          />
+          <h1>Vladimir Rurik</h1>
+          <p style={{ color: '#61dafb', marginBottom: '20px' }}>Senior Full-Stack Developer / Solution Architect</p>
 
-          <h2>Technologies I already master</h2>
-          <ul>
-            <li>C#, ASP.NET, Blazor</li>
-            <li>Clojure & ClojureScript</li>
-            <li>Java & Spring</li>
-            <li>MS SQL</li>
-            <li>Flutter</li>
-            <li>ArchiMate</li>
-            <li>Rust</li>
-            <li>Python</li>
-            <li>Machine Learning (focused on financial analysis)</li>
-            <li>Blockchain DApps</li>
-            <li>…and plenty more—honestly, I&apos;m tired of listing them!</li>
+          <h3>Contact</h3>
+          <p>
+            <a href="mailto:vladimir.rurik@gmail.com" style={{ color: '#61dafb' }}>
+              vladimir.rurik@gmail.com
+            </a>
+          </p>
+          <p>
+            <a href="https://linkedin.com/in/vladimir-rurik" style={{ color: '#61dafb' }}>
+              LinkedIn
+            </a>
+          </p>
+
+          <h3>My Repositories</h3>
+          <ul style={{ listStyle: 'none', padding: 0 }}>
+            <li>
+              <a href="https://github.com/RurikV" style={{ color: '#61dafb' }}>
+                github.com/RurikV
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/vladimir-rurik" style={{ color: '#61dafb' }}>
+                github.com/vladimir-rurik
+              </a>
+            </li>
+            <li>
+              <a href="https://gitlab.com/vovo-otus/excusiohub" style={{ color: '#61dafb' }}>
+                gitlab.com/vovo-otus/excusiohub
+              </a>
+            </li>
+            <li>
+              <a href="https://gitlab.com/room-2-otus" style={{ color: '#61dafb' }}>
+                gitlab.com/room-2-otus
+              </a>
+            </li>
           </ul>
 
-          <h2>About me</h2>
-          <p>20 + years in IT.</p>
+          <h3>Projects</h3>
           <p>
-            I&apos;ve worked across many domains; a highlight was building energy-market software for a U.S. company.
+            <a href="https://picklematch.vercel.app" style={{ color: '#61dafb' }}>
+              PickleMatch (MVP) - Tennis tournament management app
+            </a>
+          </p>
+
+          <h3>Summary</h3>
+          <p>
+            Over 20 years in software development across energy trading, banking, retail, logistics, education, and
+            government sectors. Full-stack developer and solution architect skilled in Java, Spring, React, ASP.NET,
+            Python, Clojure, Rust, and cloud technologies.
+          </p>
+
+          <h3>Core Skills</h3>
+          <ul>
+            <li>
+              <strong>Backend:</strong> Java, Spring Boot, ASP.NET Core, Python, Node.js, C#, Clojure, Rust
+            </li>
+            <li>
+              <strong>Frontend:</strong> React, TypeScript, JavaScript, HTML5, CSS3
+            </li>
+            <li>
+              <strong>Databases:</strong> MS SQL, PostgreSQL, MongoDB, Redis
+            </li>
+            <li>
+              <strong>Cloud:</strong> Azure, AWS
+            </li>
+            <li>
+              <strong>DevOps:</strong> Docker, Kubernetes, Git, CI/CD
+            </li>
+          </ul>
+
+          <h3>Current Position</h3>
+          <p>
+            <strong>Senior Java/React Developer</strong> at Nortal (Tallinn, Estonia) - Oct 2023 to Present
+          </p>
+          <p>Java developer on a large energy trading platform. Mentoring junior developers.</p>
+
+          <h3>Previous Experience</h3>
+          <ul>
+            <li>
+              <strong>Cognizant</strong> (Belgium) - Oct 2022 to Oct 2023
+              <br />
+              React, Java, Spring Boot for banking client. Microservices architecture.
+            </li>
+            <li>
+              <strong>StarOfService</strong> (Remote, Rome) - Jan 2021 to Oct 2022
+              <br />
+              Full-stack development for professional services marketplace.
+            </li>
+            <li>
+              <strong>Pipedrive</strong> (Tallinn, Estonia) - Jun 2020 to Jan 2021
+              <br />
+              React, TypeScript, Java, Spring Boot for CRM platform.
+            </li>
+            <li>
+              <strong>Playtech</strong> (Tallinn, Estonia) - Mar 2019 to Jun 2020
+              <br />
+              Senior .NET Developer for gaming platform.
+            </li>
+          </ul>
+
+          <h3>Education</h3>
+          <p>
+            <strong>Tallinn University of Technology</strong>
+            <br />
+            Master&apos;s in Computer Science (2016-2019)
+            <br />
+            Bachelor&apos;s in Computer Engineering (2005-2011)
           </p>
         </div>
       ),
@@ -41,132 +139,104 @@ function App() {
       name: 'Français',
       text: (
         <div style={{ textAlign: 'left', fontSize: '14px' }}>
-          <h2>Objectifs</h2>
-          <p>J&apos;ai un MVP développé en ClojureScript : https://picklematch.vercel.app</p>
-          <p>
-            À la fin de ce cours, je veux le peaufiner, lui ajouter tous les petits plus et le faire vraiment briller.
+          <img
+            src={photo}
+            alt="Vladimir Rurik"
+            style={{
+              width: '150px',
+              height: '150px',
+              borderRadius: '50%',
+              objectFit: 'cover',
+              marginBottom: '20px',
+              border: '3px solid #61dafb',
+            }}
+          />
+          <h1>Vladimir Rurik</h1>
+          <p style={{ color: '#61dafb', marginBottom: '20px' }}>
+            Développeur Full-Stack Senior / Architecte de Solutions
           </p>
 
-          <h2>Technologies déjà maîtrisées</h2>
-          <ul>
-            <li>C#, ASP.NET, Blazor</li>
-            <li>Clojure & ClojureScript</li>
-            <li>Java & Spring</li>
-            <li>MS SQL</li>
-            <li>Flutter</li>
-            <li>ArchiMate</li>
-            <li>Rust</li>
-            <li>Python</li>
-            <li>Apprentissage automatique (analyse financière)</li>
-            <li>DApps Blockchain</li>
-            <li>…et bien d&apos;autres : j&apos;en ai assez d&apos;allonger la liste !</li>
+          <h3>Contact</h3>
+          <p>
+            <a href="mailto:vladimir.rurik@gmail.com" style={{ color: '#61dafb' }}>
+              vladimir.rurik@gmail.com
+            </a>
+          </p>
+          <p>
+            <a href="https://linkedin.com/in/vladimir-rurik" style={{ color: '#61dafb' }}>
+              LinkedIn
+            </a>
+          </p>
+
+          <h3>Mes Dépôts</h3>
+          <ul style={{ listStyle: 'none', padding: 0 }}>
+            <li>
+              <a href="https://github.com/RurikV" style={{ color: '#61dafb' }}>
+                github.com/RurikV
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/vladimir-rurik" style={{ color: '#61dafb' }}>
+                github.com/vladimir-rurik
+              </a>
+            </li>
+            <li>
+              <a href="https://gitlab.com/vovo-otus/excusiohub" style={{ color: '#61dafb' }}>
+                gitlab.com/vovo-otus/excusiohub
+              </a>
+            </li>
+            <li>
+              <a href="https://gitlab.com/room-2-otus" style={{ color: '#61dafb' }}>
+                gitlab.com/room-2-otus
+              </a>
+            </li>
           </ul>
 
-          <h2>À propos de moi</h2>
-          <p>Plus de 20 ans d&apos;expérience dans l&apos;IT.</p>
+          <h3>Projets</h3>
           <p>
-            J&apos;ai travaillé dans de nombreux secteurs ; l&apos;un de mes projets marquants fut le développement de
-            logiciels pour le marché de l&apos;énergie pour une entreprise américaine.
+            <a href="https://picklematch.vercel.app" style={{ color: '#61dafb' }}>
+              PickleMatch (MVP) - Application de gestion de tournois de tennis
+            </a>
           </p>
-        </div>
-      ),
-    },
-    {
-      name: 'Español',
-      text: (
-        <div style={{ textAlign: 'left', fontSize: '14px' }}>
-          <h2>Objetivos</h2>
-          <p>Tengo un MVP escrito en ClojureScript : https://picklematch.vercel.app</p>
-          <p>Al final de este curso quiero pulirlo, añadirle todos los lujos y hacerlo brillar de verdad.</p>
 
-          <h2>Tecnologías que ya domino</h2>
+          <h3>Résumé</h3>
+          <p>
+            Plus de 20 ans dans le développement logiciel à travers divers secteurs : énergie, banque, retail,
+            logistique, éducation et gouvernement. Développeur full-stack et architecte de solutions compétent en Java,
+            Spring, React, ASP.NET, Python, Clojure, Rust et technologies cloud.
+          </p>
+
+          <h3>Compétences Principales</h3>
           <ul>
-            <li>C#, ASP.NET, Blazor</li>
-            <li>Clojure y ClojureScript</li>
-            <li>Java y Spring</li>
-            <li>MS SQL</li>
-            <li>Flutter</li>
-            <li>ArchiMate</li>
-            <li>Rust</li>
-            <li>Python</li>
-            <li>Aprendizaje automático (análisis financiero)</li>
-            <li>DApps en Blockchain</li>
-            <li>…y muchas más; ¡ya cansa enumerarlas!</li>
+            <li>
+              <strong>Backend :</strong> Java, Spring Boot, ASP.NET Core, Python, Node.js, C#, Clojure, Rust
+            </li>
+            <li>
+              <strong>Frontend :</strong> React, TypeScript, JavaScript, HTML5, CSS3
+            </li>
+            <li>
+              <strong>Bases de données :</strong> MS SQL, PostgreSQL, MongoDB, Redis
+            </li>
+            <li>
+              <strong>Cloud :</strong> Azure, AWS
+            </li>
+            <li>
+              <strong>DevOps :</strong> Docker, Kubernetes, Git, CI/CD
+            </li>
           </ul>
 
-          <h2>Sobre mí</h2>
-          <p>Más de 20 años en TI.</p>
+          <h3>Position Actuelle</h3>
           <p>
-            He trabajado en muchos sectores; un proyecto destacado fue desarrollar software para el mercado energético
-            para una empresa estadounidense.
-          </p>
-        </div>
-      ),
-    },
-    {
-      name: 'Português (Brasil)',
-      text: (
-        <div style={{ textAlign: 'left', fontSize: '14px' }}>
-          <h2>Objetivos</h2>
-          <p>Tenho um MVP desenvolvido em ClojureScript: https://picklematch.vercel.app</p>
-          <p>
-            Ao final deste curso, quero aprimorá-lo, adicionar todos os recursos extras e fazê-lo realmente brilhar.
+            <strong>Développeur Java/React Senior</strong> chez Nortal (Tallinn, Estonie) - Oct 2023 à présent
           </p>
 
-          <h2>Tecnologias que já domino</h2>
-          <ul>
-            <li>C#, ASP.NET, Blazor</li>
-            <li>Clojure & ClojureScript</li>
-            <li>Java & Spring</li>
-            <li>MS SQL</li>
-            <li>Flutter</li>
-            <li>ArchiMate</li>
-            <li>Rust</li>
-            <li>Python</li>
-            <li>Aprendizado de máquina (análise financeira)</li>
-            <li>DApps em Blockchain</li>
-            <li>…e muito mais; honestamente, estou cansado de listá-las!</li>
-          </ul>
-
-          <h2>Sobre mim</h2>
-          <p>Mais de 20 anos em TI.</p>
+          <h3>Éducation</h3>
           <p>
-            Trabalhei em diversos setores; um destaque foi desenvolver software para o mercado de energia para uma
-            empresa americana.
-          </p>
-        </div>
-      ),
-    },
-    {
-      name: 'Italiano',
-      text: (
-        <div style={{ textAlign: 'left', fontSize: '14px' }}>
-          <h2>Obiettivi</h2>
-          <p>Ho un prototipo MVP scritto in ClojureScript: https://picklematch.vercel.app</p>
-          <p>
-            Entro la fine di questo corso voglio perfezionarlo, aggiungere tutti i dettagli e farlo brillare davvero.
-          </p>
-
-          <h2>Tecnologie che già padroneggio</h2>
-          <ul>
-            <li>C#, ASP.NET, Blazor</li>
-            <li>Clojure & ClojureScript</li>
-            <li>Java & Spring</li>
-            <li>MS SQL</li>
-            <li>Flutter</li>
-            <li>ArchiMate</li>
-            <li>Rust</li>
-            <li>Python</li>
-            <li>Machine Learning (analisi finanziaria)</li>
-            <li>DApps Blockchain</li>
-            <li>…e molto altro—onestamente, sono stanco di elencarle!</li>
-          </ul>
-
-          <h2>Su di me</h2>
-          <p>Più di 20 anni nel settore IT.</p>
-          <p>
-            Ho lavorato in molti settori; un punto saliente è stato lo sviluppo di software per il mercato energetico
-            per un&apos;azienda statunitense.
+            <strong>Université de Technologie de Tallinn</strong>
+            <br />
+            Master en Informatique (2016-2019)
+            <br />
+            Bachelor en Génie Informatique (2005-2011)
           </p>
         </div>
       ),
@@ -175,67 +245,102 @@ function App() {
       name: 'Eesti',
       text: (
         <div style={{ textAlign: 'left', fontSize: '14px' }}>
-          <h2>Eesmärgid</h2>
-          <p>Mul on ClojureScriptis valminud MVP-prototüüp: https://picklematch.vercel.app</p>
+          <img
+            src={photo}
+            alt="Vladimir Rurik"
+            style={{
+              width: '150px',
+              height: '150px',
+              borderRadius: '50%',
+              objectFit: 'cover',
+              marginBottom: '20px',
+              border: '3px solid #61dafb',
+            }}
+          />
+          <h1>Vladimir Rurik</h1>
+          <p style={{ color: '#61dafb', marginBottom: '20px' }}>Täispinna Arendaja / Lahendusarhitekt</p>
+
+          <h3>Kontakt</h3>
           <p>
-            Kursuse lõpuks tahan selle läikima lüüa, lisada kõik kellad ja viled ning panna rakenduse tõeliselt särama.
+            <a href="mailto:vladimir.rurik@gmail.com" style={{ color: '#61dafb' }}>
+              vladimir.rurik@gmail.com
+            </a>
+          </p>
+          <p>
+            <a href="https://linkedin.com/in/vladimir-rurik" style={{ color: '#61dafb' }}>
+              LinkedIn
+            </a>
           </p>
 
-          <h2>Tehnoloogiad, mida juba valdan</h2>
-          <ul>
-            <li>C#, ASP.NET, Blazor</li>
-            <li>Clojure & ClojureScript</li>
-            <li>Java & Spring</li>
-            <li>MS SQL</li>
-            <li>Flutter</li>
-            <li>ArchiMate</li>
-            <li>Rust</li>
-            <li>Python</li>
-            <li>Masinõpe (eriti finantsanalüüsi jaoks)</li>
-            <li>Plokiahela DApp-id</li>
-            <li>…ja veel palju muud—ausalt, loetlemisest on juba villand!</li>
+          <h3>Minu Repositooriumid</h3>
+          <ul style={{ listStyle: 'none', padding: 0 }}>
+            <li>
+              <a href="https://github.com/RurikV" style={{ color: '#61dafb' }}>
+                github.com/RurikV
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/vladimir-rurik" style={{ color: '#61dafb' }}>
+                github.com/vladimir-rurik
+              </a>
+            </li>
+            <li>
+              <a href="https://gitlab.com/vovo-otus/excusiohub" style={{ color: '#61dafb' }}>
+                gitlab.com/vovo-otus/excusiohub
+              </a>
+            </li>
+            <li>
+              <a href="https://gitlab.com/room-2-otus" style={{ color: '#61dafb' }}>
+                gitlab.com/room-2-otus
+              </a>
+            </li>
           </ul>
 
-          <h2>Minust</h2>
-          <p>Üle 20 aasta kogemust IT-valdkonnas.</p>
+          <h3>Projektid</h3>
           <p>
-            Olen tegutsenud mitmesugustes tööstusharudes; üks meeldejäävamaid projekte oli energiaturu tarkvara
-            arendamine USA ettevõttele.
-          </p>
-        </div>
-      ),
-    },
-    {
-      name: 'Suomi',
-      text: (
-        <div style={{ textAlign: 'left', fontSize: '14px' }}>
-          <h2>Tavoitteet</h2>
-          <p>Minulla on ClojureScriptilla toteutettu MVP-prototyyppi: https://picklematch.vercel.app</p>
-          <p>
-            Kurssin loppuun mennessä haluan hioa sen huippuunsa, lisätä kaikki &quot;kellot ja pillit&quot; ja saada
-            sovelluksen todella loistamaan.
+            <a href="https://picklematch.vercel.app" style={{ color: '#61dafb' }}>
+              PickleMatch (MVP) - Tennise turniirihalduse rakendus
+            </a>
           </p>
 
-          <h2>Hallitsemani teknologiat</h2>
+          <h3>Kokkuvõte</h3>
+          <p>
+            Üle 20 aasta kogemust tarkvaraarenduses erinevates valdkondades: energeetika, pangandus, jaemüük, logistika,
+            haridus ja riigihaldus. Täispinna arendaja ja lahendusarhitekt, kes valdab Java, Spring, React, ASP.NET,
+            Pythoni, Clojure&apos;i, Rusti ja pilvetehnoloogiaid.
+          </p>
+
+          <h3>Põhioskused</h3>
           <ul>
-            <li>C#, ASP.NET, Blazor</li>
-            <li>Clojure & ClojureScript</li>
-            <li>Java & Spring</li>
-            <li>MS SQL</li>
-            <li>Flutter</li>
-            <li>ArchiMate</li>
-            <li>Rust</li>
-            <li>Python</li>
-            <li>Koneoppiminen (erityisesti talousanalyysiin)</li>
-            <li>Blockchain-pohjaiset DAppit</li>
-            <li>…ja paljon muuta – olen jo kyllästynyt luettelemaan niitä!</li>
+            <li>
+              <strong>Backend:</strong> Java, Spring Boot, ASP.NET Core, Python, Node.js, C#, Clojure, Rust
+            </li>
+            <li>
+              <strong>Frontend:</strong> React, TypeScript, JavaScript, HTML5, CSS3
+            </li>
+            <li>
+              <strong>Andmebaasid:</strong> MS SQL, PostgreSQL, MongoDB, Redis
+            </li>
+            <li>
+              <strong>Pilv:</strong> Azure, AWS
+            </li>
+            <li>
+              <strong>DevOps:</strong> Docker, Kubernetes, Git, CI/CD
+            </li>
           </ul>
 
-          <h2>Minusta</h2>
-          <p>Yli 20 vuotta kokemusta IT-alalta.</p>
+          <h3>Praegune Positsioon</h3>
           <p>
-            Olen työskennellyt monilla toimialoilla; yksi urani kohokohdista oli energiamarkkinoille suunnatun
-            ohjelmiston kehittäminen yhdysvaltalaiselle yritykselle.
+            <strong>Senior Java/React Arendaja</strong> ettevõttes Nortal (Tallinn, Eesti) - Oktoober 2023 – praeguseni
+          </p>
+
+          <h3>Haridus</h3>
+          <p>
+            <strong>Tallinna Tehnikaülikool</strong>
+            <br />
+            Magister arvutiteaduses (2016-2019)
+            <br />
+            Bakalaureus arvutitehnikas (2005-2011)
           </p>
         </div>
       ),
@@ -245,21 +350,21 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <div style={{ display: 'flex', marginBottom: '10px' }}>
+          <div style={{ display: 'flex', marginBottom: '20px', flexWrap: 'wrap', justifyContent: 'center' }}>
             {languages.map((lang) => (
               <button
                 key={lang.name}
                 onClick={() => setActiveTab(lang.name)}
                 style={{
                   padding: '8px 16px',
-                  margin: '0 5px',
+                  margin: '5px',
                   backgroundColor: activeTab === lang.name ? '#61dafb' : '#282c34',
                   color: 'white',
                   border: '1px solid #61dafb',
                   borderRadius: '4px',
                   cursor: 'pointer',
+                  fontSize: '14px',
                 }}
               >
                 {lang.name}
@@ -268,11 +373,13 @@ function App() {
           </div>
           <div
             style={{
-              padding: '20px',
+              padding: '30px',
               border: '1px solid #61dafb',
-              borderRadius: '4px',
+              borderRadius: '8px',
               minWidth: '300px',
-              textAlign: 'center',
+              maxWidth: '600px',
+              textAlign: 'left',
+              backgroundColor: 'rgba(40, 44, 52, 0.8)',
             }}
           >
             {languages.find((lang) => lang.name === activeTab)?.text}
