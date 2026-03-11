@@ -8,7 +8,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+# Ensure only one deployment runs at a time
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
@@ -19,16 +26,17 @@ jobs:
         node-version: [18.x]
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+          cache: 'npm'
 
       # Install dependencies
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       # Run tests and linter
       - name: Run tests and linter
@@ -38,26 +46,17 @@ jobs:
       - name: Build Application
         run: npm run build
 
-      # Deploy application to Github Pages
-      - name: Deploy to Github Pages
-        uses: JamesIves/github-pages-deploy-action@4.2.1
+      # Setup Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      # Upload artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          branch: gh-pages
-          folder: dist
+          path: './dist'
 
-      #      # Build Storybook
-      #      - name: Build Storybook
-      #        run: npm run build-storybook
-      #
-      #      # Deploy Storybook to Github Pages
-      #      - name: Deploy Storybook to Github Pages
-      #        uses: JamesIves/github-pages-deploy-action@4.2.1
-      #        with:
-      #          branch: gh-pages
-      #          folder: storybook-static
-      #          commit-message: "Automatically publish Storybook"
-
-      # Stop execution strictly on failed tests
-      - name: Fail on failed tests
-        run: |
-          if [ ${{ job.status }} == 'failure' ]; then exit 1; fi;
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
