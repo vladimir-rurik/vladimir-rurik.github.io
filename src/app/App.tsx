@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import photo from './cv_photo.jpg';
 import './App.css';
 
 function App() {
@@ -637,6 +638,18 @@ function App() {
               color: '#333'
             }}
           >
+            <img
+              src={photo}
+              alt="Vladimir Rurik"
+              style={{
+                width: '120px',
+                height: '120px',
+                borderRadius: '50%',
+                objectFit: 'cover',
+                marginBottom: '16px',
+                border: '3px solid #ccc',
+              }}
+            />
             <h1>{langContent.title}</h1>
             <p style={{ color: '#666', marginBottom: '20px', fontSize: '15px' }}>
               {langContent.subtitle}
