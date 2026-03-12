@@ -159,7 +159,7 @@ function App() {
       experienceTitle: 'Expérience Professionnelle',
       educationTitle: 'Éducation',
       summary:
-        "Je suis un développeur full-stack et passionné d'IA avec de l'expérience en front-end (Vue, PWA, React, HTML/CSS, JavaScript, Blazor, Flutter) et back-end (Kotlin, .NET, SQL Server, Web Services, REST, Java Spring). Au cours des dernières années, j'ai contribué à divers projets impliquant des technologies cloud (Azure, Google), l'automatisation des flux de travail et des composants d'apprentissage automatique.",
+        "Je suis un développeur full-stack et passionné d'IA avec de l'expérience en front-end (Vue, PWA, React, HTML/CSS, JavaScript, Blazor, Flutter) et back-end (Kotlin, .NET, SQL Server, Web Services, REST, Java Spring). Au cours des dernières années, j'ai contribué à divers projets impliquant des technologies cloud (Azure, Google), l'automatisation des flux de travail et des composants d'apprentissage automatique. Mon objectif principal est de créer des solutions évolutives, efficaces et centrées sur l'utilisateur qui génèrent de la valeur ajoutée.",
       skills: [
         {
           category: 'Backend',
@@ -207,7 +207,7 @@ function App() {
         },
         {
           category: 'IA & Machine Learning',
-          items: ['Machine Learning', 'NLP', 'Deep Learning', 'Neural Networks', 'MLOps'],
+          items: ['Apprentissage Automatique', 'NLP', 'Apprentissage Profond', 'Réseaux de Neurones', 'MLOps'],
         },
       ],
       experience: [
@@ -217,7 +217,7 @@ function App() {
           position: 'Responsable du Développement Produit',
           period: 'Déc 2021 - Déc 2024',
           description:
-            "Direction d'une équipe de 10 personnes pour le développement d'applications logicielles. Création de diagrammes Archimate.",
+            "Direction d'une équipe de 10 personnes pour le développement d'applications logicielles. Création de diagrammes Archimate. Utilisation de C# ASP.NET 8.0, Blazor, SASS, JavaScript, Specflow, et Selenium.",
         },
         {
           company: 'Compensa Vienna Insurance Group',
@@ -225,7 +225,7 @@ function App() {
           position: 'Développeur Logiciel Senior',
           period: 'Nov 2019 - Déc 2021',
           description:
-            'Développement de services pour la vérification des listes de sanctions, intégration KYC et analyse XML.',
+            'Développement de services pour la vérification des listes de sanctions mondiales, intégration du système KYC Odato, et analyse des relevés bancaires XML. Mentorat de développeurs juniors.',
         },
         {
           company: 'Põhja-Eesti Regionaalhaigla',
@@ -233,7 +233,7 @@ function App() {
           position: 'Développeur Logiciel Senior',
           period: 'Jan 2019 - Août 2019',
           description:
-            "Approbation des PR pour le système d'information de l'hôpital. Travail avec C# .NET, Oracle, et MS SQL Server.",
+            "Approbation des PR pour le système d'information de l'hôpital. Travail avec C# .NET, WCF, ASP.NET MVC 5, Core, Javascript, Angular, Oracle, et MS SQL Server.",
         },
         {
           company: 'Intelometry OÜ',
@@ -241,14 +241,14 @@ function App() {
           position: 'Développeur Logiciel Senior',
           period: 'Mai 2013 - Nov 2018',
           description:
-            'Développement du logiciel inEnergy. Utilisation de C# .NET, Javascript, jQuery, Bootstrap, Win Forms.',
+            "Développement de la suite logicielle inEnergy pour l'énergie. Utilisation de C# .NET ASP.NET MVC 5, Javascript, jQuery, Bootstrap, Win Forms, Kendo, DevExpress.",
         },
         {
           company: 'SportRadar AG',
           location: 'Tallinn, Estonie',
           position: 'Développeur Logiciel Senior',
           period: 'Avr 2012 - Avr 2013',
-          description: "Développement d'une application de paris sportifs avec C# .NET WPF.",
+          description: "Développement d'une application de paris sportifs en utilisant C# .NET WPF.",
         },
         {
           company: 'Baltic Hotel & Restoraunt Systems OÜ',
@@ -256,21 +256,22 @@ function App() {
           position: 'Responsable du Développement',
           period: 'Mai 2004 - Avr 2012',
           description:
-            'Systèmes informatiques pour hôtels/restaurants (.NET, C#, F#, Erlang, JVM). Administration de serveurs.',
+            'Développement de systèmes informatiques pour Hôtels/Restaurants en utilisant .NET, C#, F#, Erlang, JVM, Java/Scala. Administration de serveurs Oracle, Linux et Windows.',
         },
         {
           company: 'Swedbank',
           location: 'Tallinn, Estonie',
-          position: 'Développeur Logiciel',
+          position: "Développeur Logiciel, Responsable du Processus d'Implémentation",
           period: 'Jan 2005 - Mar 2007',
-          description: 'Applications J2EE WEB. Déploiement dans BEA Weblogic.',
+          description:
+            'Applications J2EE WEB avec PL/SQL. Déploiement et tests avec BEA Weblogic sur Sun Solaris et RedHat.',
         },
         {
           company: 'Pensioniamet',
           location: 'Tallinn, Estonie',
           position: 'Développeur Logiciel',
           period: 'Avr 1997 - Mai 2004',
-          description: 'Administration/programmation de serveurs Oracle/Windows/Linux ; Delphi.',
+          description: 'Administration/programmation de serveurs Oracle 8.0.7/9i Windows/Linux ; programmes Delphi.',
         },
       ],
       education: [
@@ -282,12 +283,12 @@ function App() {
         { school: 'SDA Academy', degree: 'Ingénieur en IA (4 mois)', period: 'Jan 2025' },
         {
           school: 'HTML Academy',
-          degree: 'Expert en HTML, CSS, JavaScript, TypeScript, Node.js',
+          degree: 'Expert en HTML, CSS, JavaScript, TypeScript, et Node.js',
           period: 'Fév 2018 - Jan 2019',
         },
         {
           school: 'Tallinna Tehnikaülikool',
-          degree: 'Ingénieur en automatisation, Master',
+          degree: 'Ingénieur en Automatisation, Master',
           period: 'Sep 1996 - Août 2002',
         },
       ],
@@ -302,7 +303,7 @@ function App() {
       experienceTitle: 'Experiencia Laboral',
       educationTitle: 'Educación',
       summary:
-        'Soy un desarrollador full-stack y entusiasta de la IA con experiencia en front-end y back-end. En los últimos años, he contribuido a varios proyectos relacionados con tecnologías en la nube (Azure, Google), automatización de flujos de trabajo y componentes de aprendizaje automático.',
+        'Soy un desarrollador full-stack y entusiasta de la IA con experiencia en front-end (Vue, PWA, React, HTML/CSS, JavaScript, Blazor, Flutter) y back-end (Kotlin, .NET, SQL Server, Web Services, REST, Java Spring). En los últimos años, he contribuido a varios proyectos relacionados con tecnologías en la nube (Azure, Google), automatización de flujos de trabajo y componentes de aprendizaje automático. Mi enfoque principal es construir soluciones escalables, eficientes y centradas en el usuario que generen valor empresarial.',
       skills: [
         {
           category: 'Backend',
@@ -350,7 +351,7 @@ function App() {
         },
         {
           category: 'IA & Machine Learning',
-          items: ['Machine Learning', 'NLP', 'Deep Learning', 'Neural Networks', 'MLOps'],
+          items: ['Aprendizaje Automático', 'NLP', 'Aprendizaje Profundo', 'Redes Neuronales', 'MLOps'],
         },
       ],
       experience: [
@@ -360,7 +361,7 @@ function App() {
           position: 'Gerente de Desarrollo de Producto',
           period: 'Dic 2021 - Dic 2024',
           description:
-            'Lideré un equipo de 10 personas, supervisando el desarrollo de aplicaciones. Creación de diagramas Archimate.',
+            'Lideré un equipo de 10 personas, supervisando el desarrollo de aplicaciones de software. Creación de diagramas Archimate. Utilicé C# ASP.NET 8.0, Blazor, SASS, JavaScript, Specflow y Selenium.',
         },
         {
           company: 'Compensa Vienna Insurance Group',
@@ -368,49 +369,54 @@ function App() {
           position: 'Desarrollador de Software Senior',
           period: 'Nov 2019 - Dic 2021',
           description:
-            'Desarrollé servicios para comprobación de listas de sanciones, integración KYC y análisis de XML.',
+            'Desarrollé servicios para comprobación de listas de sanciones globales, integración del sistema Odato KYC y análisis de estados de cuenta bancarios en XML. Mentoría de desarrolladores junior.',
         },
         {
           company: 'Põhja-Eesti Regionaalhaigla',
           location: 'Tallin, Estonia',
           position: 'Desarrollador de Software Senior',
           period: 'Ene 2019 - Ago 2019',
-          description: 'Aprobación de PR en el Sistema de Información Hospitalaria.',
+          description:
+            'Aprobación de PRs en el Sistema de Información Hospitalaria. Trabajé con C# .NET, WCF, ASP.NET MVC 5, Core, Javascript, Angular, Oracle y MS SQL Server.',
         },
         {
           company: 'Intelometry OÜ',
           location: 'Tallin, Estonia',
           position: 'Desarrollador de Software Senior',
           period: 'May 2013 - Nov 2018',
-          description: 'Desarrollé el software inEnergy. Uso de C# .NET, Javascript, jQuery, Bootstrap.',
+          description:
+            'Desarrollé el software de la suite inEnergy para energía. Usé C# .NET ASP.NET MVC 5, Javascript, jQuery, Bootstrap, Win Forms, Kendo, DevExpress.',
         },
         {
           company: 'SportRadar AG',
           location: 'Tallin, Estonia',
           position: 'Desarrollador de Software Senior',
           period: 'Abr 2012 - Abr 2013',
-          description: 'Aplicación de apuestas deportivas usando C# .NET WPF.',
+          description: 'Desarrollé una aplicación de apuestas deportivas utilizando C# .NET WPF.',
         },
         {
           company: 'Baltic Hotel & Restoraunt Systems OÜ',
           location: 'Tallin, Estonia',
           position: 'Gerente de Desarrollo',
           period: 'May 2004 - Abr 2012',
-          description: 'Sistemas TI para restaurantes/hoteles (.NET, C#, Erlang, Java). Administración de servidores.',
+          description:
+            'Desarrollo de sistemas de TI para Restaurantes/Hoteles usando .NET, C#, F#, Erlang, JVM, Java/Scala. Administración de servidores Oracle, Linux y Windows.',
         },
         {
           company: 'Swedbank',
           location: 'Tallin, Estonia',
-          position: 'Desarrollador de Software',
+          position: 'Desarrollador de Software, Gestor del Proceso de Implementación',
           period: 'Ene 2005 - Mar 2007',
-          description: 'Aplicaciones WEB J2EE con PL/SQL.',
+          description:
+            'Aplicaciones J2EE WEB con PL/SQL. Implementación y pruebas en BEA Weblogic sobre Sun Solaris y RedHat.',
         },
         {
           company: 'Pensioniamet',
           location: 'Tallin, Estonia',
           position: 'Desarrollador de Software',
           period: 'Abr 1997 - May 2004',
-          description: 'Administración/programación Oracle, Windows/Linux; programas Delphi.',
+          description:
+            'Administración/programación de servidores operativos Oracle 8.0.7/9i Windows/Linux; programas en Delphi.',
         },
       ],
       education: [
@@ -422,12 +428,12 @@ function App() {
         { school: 'SDA Academy', degree: 'Ingeniero en IA (4 meses)', period: 'Ene 2025' },
         {
           school: 'HTML Academy',
-          degree: 'Experto en HTML, CSS, JavaScript, TypeScript, Node.js',
+          degree: 'Experto en HTML, CSS, JavaScript, TypeScript, y Node.js',
           period: 'Feb 2018 - Ene 2019',
         },
         {
           school: 'Tallinna Tehnikaülikool',
-          degree: 'Ingeniero en automatización, Magister',
+          degree: 'Ingeniero en Automatización, Magíster',
           period: 'Sep 1996 - Ago 2002',
         },
       ],
@@ -442,7 +448,7 @@ function App() {
       experienceTitle: 'Experiência Profissional',
       educationTitle: 'Educação',
       summary:
-        'Sou um desenvolvedor full-stack e entusiasta de IA com experiência em front-end e back-end. Nos últimos anos, contribuí para vários projetos envolvendo tecnologias de nuvem, automação de fluxo de trabalho e componentes de aprendizado de máquina.',
+        'Sou um desenvolvedor full-stack e entusiasta de IA com experiência em front-end (Vue, PWA, React, HTML/CSS, JavaScript, Blazor, Flutter) e back-end (Kotlin, .NET, SQL Server, Web Services, REST, Java Spring). Nos últimos anos, contribuí para vários projetos envolvendo tecnologias de nuvem (Azure, Google), automação de fluxo de trabalho e componentes de aprendizado de máquina. Meu foco principal é construir soluções escaláveis, eficientes e centradas no usuário que gerem valor de negócio.',
       skills: [
         {
           category: 'Backend',
@@ -490,7 +496,7 @@ function App() {
         },
         {
           category: 'IA & Machine Learning',
-          items: ['Machine Learning', 'NLP', 'Deep Learning', 'Neural Networks', 'MLOps'],
+          items: ['Aprendizado de Máquina', 'NLP', 'Aprendizado Profundo', 'Redes Neurais', 'MLOps'],
         },
       ],
       experience: [
@@ -500,56 +506,61 @@ function App() {
           position: 'Gerente de Desenvolvimento de Produto',
           period: 'Dez 2021 - Dez 2024',
           description:
-            'Liderei uma equipe de 10 pessoas, supervisionando o desenvolvimento de aplicativos. Criação de diagramas Archimate.',
+            'Liderei uma equipe de 10 pessoas, supervisionando o desenvolvimento de aplicativos de software. Criei diagramas Archimate. Utilizei C# ASP.NET 8.0, Blazor, SASS, JavaScript, Specflow e Selenium.',
         },
         {
           company: 'Compensa Vienna Insurance Group',
           location: 'Tallinn, Estônia',
           position: 'Desenvolvedor de Software Sênior',
           period: 'Nov 2019 - Dez 2021',
-          description: 'Desenvolvi serviços para verificação de listas de sanções, integração KYC e análise de XML.',
+          description:
+            'Desenvolvi serviços para verificação de listas de sanções globais, integração com o sistema Odato KYC e análise de extratos bancários em XML. Mentoria para desenvolvedores juniores.',
         },
         {
           company: 'Põhja-Eesti Regionaalhaigla',
           location: 'Tallinn, Estônia',
           position: 'Desenvolvedor de Software Sênior',
           period: 'Jan 2019 - Ago 2019',
-          description: 'Aprovação de PRs no Sistema de Informação Hospitalar.',
+          description:
+            'Aprovação de PRs dentro do Sistema de Informação Hospitalar. Trabalhei com C# .NET, WCF, ASP.NET MVC 5, Core, Javascript, Angular, Oracle e MS SQL Server.',
         },
         {
           company: 'Intelometry OÜ',
           location: 'Tallinn, Estônia',
           position: 'Desenvolvedor de Software Sênior',
           period: 'Mai 2013 - Nov 2018',
-          description: 'Desenvolvimento do software inEnergy.',
+          description:
+            'Desenvolvi o software da suíte inEnergy para energia. Usei C# .NET ASP.NET MVC 5, Javascript, jQuery, Bootstrap, Win Forms, Kendo, DevExpress.',
         },
         {
           company: 'SportRadar AG',
           location: 'Tallinn, Estônia',
           position: 'Desenvolvedor de Software Sênior',
           period: 'Abr 2012 - Abr 2013',
-          description: 'Aplicativo de apostas esportivas usando C# .NET WPF.',
+          description: 'Desenvolvi um aplicativo de apostas esportivas usando C# .NET WPF.',
         },
         {
           company: 'Baltic Hotel & Restoraunt Systems OÜ',
           location: 'Tallinn, Estônia',
           position: 'Gerente de Desenvolvimento',
           period: 'Mai 2004 - Abr 2012',
-          description: 'Sistemas de TI para restaurantes/hotéis. Administração de servidores.',
+          description:
+            'Desenvolvimento de sistemas de TI para Restaurantes/Hotéis usando .NET, C#, F#, Erlang, JVM, Java/Scala. Administração de servidores Oracle, Linux e Windows.',
         },
         {
           company: 'Swedbank',
           location: 'Tallinn, Estônia',
-          position: 'Desenvolvedor de Software',
+          position: 'Desenvolvedor de Software, Gestor do Processo de Implementação',
           period: 'Jan 2005 - Mar 2007',
-          description: 'Aplicações J2EE WEB com PL/SQL.',
+          description: 'Aplicativos J2EE WEB com PL/SQL. Implantação e testes no BEA Weblogic em Sun Solaris e RedHat.',
         },
         {
           company: 'Pensioniamet',
           location: 'Tallinn, Estônia',
           position: 'Desenvolvedor de Software',
           period: 'Abr 1997 - Mai 2004',
-          description: 'Administração/programação Oracle, Windows/Linux; programas Delphi.',
+          description:
+            'Administração/programação de sistemas operacionais de servidores Oracle 8.0.7/9i Windows/Linux; programas em Delphi.',
         },
       ],
       education: [
@@ -561,7 +572,7 @@ function App() {
         { school: 'SDA Academy', degree: 'Engenheiro de IA (4 meses)', period: 'Jan 2025' },
         {
           school: 'HTML Academy',
-          degree: 'Especialista em HTML, CSS, JavaScript, TypeScript, Node.js',
+          degree: 'Especialista em HTML, CSS, JavaScript, TypeScript, e Node.js',
           period: 'Fev 2018 - Jan 2019',
         },
         {
@@ -581,7 +592,7 @@ function App() {
       experienceTitle: 'Esperienza Lavorativa',
       educationTitle: 'Formazione',
       summary:
-        'Sono uno sviluppatore full-stack e appassionato di IA con esperienza sia in ambito front-end che back-end. Negli ultimi anni, ho contribuito a vari progetti che coinvolgono tecnologie cloud, automazione dei flussi di lavoro e componenti di machine learning.',
+        "Sono uno sviluppatore full-stack e appassionato di IA con esperienza in ambito front-end (Vue, PWA, React, HTML/CSS, JavaScript, Blazor, Flutter) e back-end (Kotlin, .NET, SQL Server, Web Services, REST, Java Spring). Negli ultimi anni, ho contribuito a vari progetti che coinvolgono tecnologie cloud (Azure, Google), automazione dei flussi di lavoro e componenti di machine learning. Il mio obiettivo principale è costruire soluzioni scalabili, efficienti e incentrate sull'utente che portino valore al business.",
       skills: [
         {
           category: 'Backend',
@@ -629,7 +640,7 @@ function App() {
         },
         {
           category: 'IA & Machine Learning',
-          items: ['Machine Learning', 'NLP', 'Deep Learning', 'Neural Networks', 'MLOps'],
+          items: ['Machine Learning', 'NLP', 'Deep Learning', 'Reti Neurali', 'MLOps'],
         },
       ],
       experience: [
@@ -638,80 +649,86 @@ function App() {
           location: 'Tallinn, Estonia',
           position: 'Manager Sviluppo Prodotti',
           period: 'Dic 2021 - Dic 2024',
-          description: 'Ho guidato un team di 10 persone, supervisionando lo sviluppo di applicazioni software.',
+          description:
+            'Ho guidato un team di 10 persone, supervisionando lo sviluppo di applicazioni software. Creato diagrammi Archimate. Utilizzato C# ASP.NET 8.0, Blazor, SASS, JavaScript, Specflow e Selenium.',
         },
         {
           company: 'Compensa Vienna Insurance Group',
           location: 'Tallinn, Estonia',
           position: 'Sviluppatore Software Senior',
           period: 'Nov 2019 - Dic 2021',
-          description: 'Sviluppo di servizi per il controllo delle liste di sanzioni, integrazione KYC e parsing XML.',
+          description:
+            'Sviluppo di servizi per il controllo globale delle liste di sanzioni, integrazione del sistema Odato KYC e parsing di estratti conto bancari XML. Mentoring di sviluppatori junior.',
         },
         {
           company: 'Põhja-Eesti Regionaalhaigla',
           location: 'Tallinn, Estonia',
           position: 'Sviluppatore Software Senior',
           period: 'Gen 2019 - Ago 2019',
-          description: 'Approvazione PR per il Sistema Informativo Ospedaliero.',
+          description:
+            'Approvazione delle PR nel Sistema Informativo Ospedaliero. Lavoro con C# .NET, WCF, ASP.NET MVC 5, Core, Javascript, Angular, Oracle e MS SQL Server.',
         },
         {
           company: 'Intelometry OÜ',
           location: 'Tallinn, Estonia',
           position: 'Sviluppatore Software Senior',
           period: 'Mag 2013 - Nov 2018',
-          description: 'Sviluppo software inEnergy. Utilizzo di C# .NET, Javascript, Bootstrap.',
+          description:
+            "Sviluppo del software della suite inEnergy per l'energia. Utilizzo di C# .NET ASP.NET MVC 5, Javascript, jQuery, Bootstrap, Win Forms, Kendo, DevExpress.",
         },
         {
           company: 'SportRadar AG',
           location: 'Tallinn, Estonia',
           position: 'Sviluppatore Software Senior',
           period: 'Apr 2012 - Apr 2013',
-          description: 'Applicazione di scommesse sportive tramite C# .NET WPF.',
+          description: "Sviluppo di un'applicazione di scommesse sportive utilizzando C# .NET WPF.",
         },
         {
           company: 'Baltic Hotel & Restoraunt Systems OÜ',
           location: 'Tallinn, Estonia',
           position: 'Manager dello Sviluppo',
           period: 'Mag 2004 - Apr 2012',
-          description: 'Sistemi IT per ristoranti/hotel. Amministrazione dei server.',
+          description:
+            'Sviluppo di sistemi IT per Ristoranti/Hotel usando .NET, C#, F#, Erlang, JVM, Java/Scala. Amministrazione di server Oracle, Linux e Windows.',
         },
         {
           company: 'Swedbank',
           location: 'Tallinn, Estonia',
-          position: 'Sviluppatore Software',
+          position: 'Sviluppatore Software, Manager del Processo di Implementazione',
           period: 'Gen 2005 - Mar 2007',
-          description: 'Applicazioni J2EE WEB. Distribuzione in BEA Weblogic.',
+          description:
+            'Applicazioni J2EE WEB con PL/SQL. Distribuzione e test in BEA Weblogic su Sun Solaris e RedHat.',
         },
         {
           company: 'Pensioniamet',
           location: 'Tallinn, Estonia',
           position: 'Sviluppatore Software',
           period: 'Apr 1997 - Mag 2004',
-          description: 'Amministrazione/programmazione server Oracle/Windows/Linux; programmi Delphi.',
+          description: 'Amministrazione/programmazione di server Oracle 8.0.7/9i Windows/Linux; programmi Delphi.',
         },
       ],
       education: [
         {
           school: 'Università di Tartu',
-          degree: 'Design di applicazioni Cloud-native, DevOps e Kubernetes',
+          degree: 'Progettazione di applicazioni Cloud-native, DevOps e Kubernetes',
           period: 'Feb 2025 - Feb 2026',
         },
         { school: 'SDA Academy', degree: 'Ingegnere IA (4 mesi)', period: 'Gen 2025' },
         {
           school: 'HTML Academy',
-          degree: 'Esperto in HTML, CSS, JavaScript, TypeScript, Node.js',
+          degree: 'Esperto in HTML, CSS, JavaScript, TypeScript e Node.js',
           period: 'Feb 2018 - Gen 2019',
         },
         {
           school: 'Tallinna Tehnikaülikool',
-          degree: "Ingegnere dell'automazione, Magistrale",
+          degree: "Ingegnere dell'Automazione, Magistrale",
           period: 'Set 1996 - Ago 2002',
         },
       ],
     },
     Eesti: {
       title: 'Vladimir Rurik',
-      subtitle: 'Täispinup Arendaja / AI Entusiast / Arhitekt',
+      subtitle: 'Täispinu Arendaja / AI Entusiast / Arhitekt',
       location: 'Tallinn, Eesti',
       repositoriesTitle: 'Repositooriumid',
       summaryTitle: 'Kokkuvõte',
@@ -719,7 +736,7 @@ function App() {
       experienceTitle: 'Töökogemus',
       educationTitle: 'Haridus',
       summary:
-        'Olen täispinup arendaja ja tehisintellekti entusiast, kellel on kogemusi front-end ja back-end arenduses. Viimaste aastate jooksul olen panustanud erinevatesse projektidesse, mis hõlmavad pilvetehnoloogiaid, töövoogude automatiseerimist ja masinõppe komponente.',
+        'Olen täispinu arendaja ja tehisintellekti entusiast, kellel on kogemusi front-end (Vue, PWA, React, HTML/CSS, JavaScript, Blazor, Flutter) ja back-end (Kotlin, .NET, SQL Server, Web Services, REST, Java Spring) arenduses. Viimaste aastate jooksul olen panustanud erinevatesse projektidesse, mis hõlmavad pilvetehnoloogiaid (Azure, Google), töövoogude automatiseerimist ja masinõppe komponente. Minu peamine eesmärk on luua skaleeritavaid, tõhusaid ja kasutajakeskseid lahendusi, mis loovad äriväärtust.',
       skills: [
         {
           category: 'Backend',
@@ -774,7 +791,7 @@ function App() {
           position: 'Tootearendusjuht',
           period: 'Dets 2021 - Dets 2024',
           description:
-            'Juhtisin 10-liikmelist meeskonda, vastutades tarkvararakenduste arendamise eest. Lõin Archimate diagramme.',
+            'Juhtisin 10-liikmelist meeskonda, vastutades tarkvararakenduste arendamise eest. Lõin Archimate diagramme. Kasutatud tehnoloogiad: C# ASP.NET 8.0, Blazor, SASS, JavaScript, Specflow, Selenium.',
         },
         {
           company: 'Compensa Vienna Insurance Group',
@@ -782,21 +799,23 @@ function App() {
           position: 'Vanem tarkvaraarendaja',
           period: 'Nov 2019 - Dets 2021',
           description:
-            'Arendasin teenuseid sanktsioonide nimekirjade kontrollimiseks, KYC süsteemi integreerimiseks ja XML parsimiseks.',
+            'Arendasin teenuseid globaalsete sanktsioonide nimekirjade kontrollimiseks, Odato KYC süsteemi integreerimiseks ja XML pangakonto väljavõtete parsimiseks. Nooremate arendajate mentorlus.',
         },
         {
           company: 'Põhja-Eesti Regionaalhaigla',
           location: 'Tallinn, Eesti',
           position: 'Vanem tarkvaraarendaja',
           period: 'Jaan 2019 - Aug 2019',
-          description: 'Haigla infosüsteemi arenduste kinnitamine ja suunamine.',
+          description:
+            'Kinnitasin haigla infosüsteemi PR-e. Tehnoloogiad: C# .NET, WCF, ASP.NET MVC 5, Core, Javascript, Angular, Oracle, MS SQL Server.',
         },
         {
           company: 'Intelometry OÜ',
           location: 'Tallinn, Eesti',
           position: 'Vanem tarkvaraarendaja',
           period: 'Mai 2013 - Nov 2018',
-          description: 'inEnergy tarkvara arendus. Kasutatud: C# .NET, Javascript, Bootstrap, Win Forms.',
+          description:
+            'Energiasüsteemide tarkvara (inEnergy) arendus. Kasutatud: C# .NET ASP.NET MVC 5, Javascript, jQuery, Bootstrap, Win Forms, Kendo, DevExpress.',
         },
         {
           company: 'SportRadar AG',
@@ -811,21 +830,22 @@ function App() {
           position: 'Arendusjuht',
           period: 'Mai 2004 - Apr 2012',
           description:
-            'IT-süsteemide arendamine restoranidele ja hotellidele. Oracle, Linux ja Windows serverite haldamine.',
+            'IT-süsteemide arendamine restoranidele ja hotellidele (.NET, C#, F#, Erlang, JVM, Java/Scala). Oracle, Linux ja Windows serverite haldamine.',
         },
         {
           company: 'Swedbank',
           location: 'Tallinn, Eesti',
-          position: 'Tarkvaraarendaja',
+          position: 'Tarkvaraarendaja, juurutusprotsessijuht',
           period: 'Jaan 2005 - Märts 2007',
-          description: 'J2EE WEB rakendused PL/SQL-ga.',
+          description:
+            'J2EE WEB rakendused PL/SQL-ga. Haldamine ja testimine BEA Weblogic serverites Sun Solaris ja RedHat süsteemidel.',
         },
         {
           company: 'Pensioniamet',
           location: 'Tallinn, Eesti',
           position: 'Tarkvaraarendaja',
           period: 'Apr 1997 - Mai 2004',
-          description: 'Oracle, Windows/Linux serverite haldamine; Delphi programmid.',
+          description: 'Oracle 8.0.7/9i Windows/Linux serverite haldamine/programmeerimine; Delphi programmid.',
         },
       ],
       education: [
@@ -837,7 +857,7 @@ function App() {
         { school: 'SDA Academy', degree: 'AI Insener (4 kuud)', period: 'Jaan 2025' },
         {
           school: 'HTML Academy',
-          degree: 'Ekspert HTML, CSS, JavaScript, TypeScript, Node.js',
+          degree: 'Ekspert HTML, CSS, JavaScript, TypeScript ja Node.js vallas',
           period: 'Veebr 2018 - Jaan 2019',
         },
         { school: 'Tallinna Tehnikaülikool', degree: 'Automaatika insener, Magister', period: 'Sept 1996 - Aug 2002' },
@@ -853,7 +873,7 @@ function App() {
       experienceTitle: 'Työkokemus',
       educationTitle: 'Koulutus',
       summary:
-        'Olen full-stack kehittäjä ja tekoälystä innostunut asiantuntija. Minulla on kokemusta front-end ja back-end kehityksestä. Viime vuosina olen osallistunut useisiin projekteihin, joihin liittyy pilviteknologioita, työnkulkujen automatisointia ja koneoppimiskomponentteja.',
+        'Olen full-stack kehittäjä ja tekoälystä innostunut asiantuntija. Minulla on kokemusta front-end (Vue, PWA, React, HTML/CSS, JavaScript, Blazor, Flutter) ja back-end (Kotlin, .NET, SQL Server, Web Services, REST, Java Spring) kehityksestä. Viime vuosina olen osallistunut useisiin projekteihin, joihin liittyy pilviteknologioita (Azure, Google), työnkulkujen automatisointia ja koneoppimiskomponentteja. Pääpainoni on skaalautuvien, tehokkaiden ja käyttäjäkeskeisten ratkaisujen rakentamisessa, jotka tuottavat liiketoiminta-arvoa.',
       skills: [
         {
           category: 'Backend',
@@ -907,56 +927,62 @@ function App() {
           location: 'Tallinna, Viro',
           position: 'Tuotekehityspäällikkö',
           period: 'Joulu 2021 - Joulu 2024',
-          description: 'Johdin 10 hengen tiimiä, valvoen ohjelmistosovellusten kehitystä. Loin Archimate-kaavioita.',
+          description:
+            'Johdin 10 hengen tiimiä, valvoen ohjelmistosovellusten kehitystä. Loin Archimate-kaavioita. Käytetyt teknologiat: C# ASP.NET 8.0, Blazor, SASS, JavaScript, Specflow ja Selenium.',
         },
         {
           company: 'Compensa Vienna Insurance Group',
           location: 'Tallinna, Viro',
           position: 'Vanhempi Ohjelmistokehittäjä',
           period: 'Marras 2019 - Joulu 2021',
-          description: 'Kehitin palveluita pakotelistojen tarkistamiseen, KYC-integraatioon ja XML-jäsennukseen.',
+          description:
+            'Kehitin palveluita maailmanlaajuisten pakotelistojen tarkistamiseen, Odato KYC -järjestelmän integraatioon ja XML-pankkitiliotteiden jäsentämiseen. Nuorempien kehittäjien mentorointi.',
         },
         {
           company: 'Põhja-Eesti Regionaalhaigla',
           location: 'Tallinna, Viro',
           position: 'Vanhempi Ohjelmistokehittäjä',
           period: 'Tammi 2019 - Elo 2019',
-          description: 'Sairaalan tietojärjestelmän vetopyyntöjen hyväksyminen.',
+          description:
+            'Sairaalan tietojärjestelmän PR-pyyntöjen hyväksyminen. Teknologiat: C# .NET, WCF, ASP.NET MVC 5, Core, Javascript, Angular, Oracle, MS SQL Server.',
         },
         {
           company: 'Intelometry OÜ',
           location: 'Tallinna, Viro',
           position: 'Vanhempi Ohjelmistokehittäjä',
           period: 'Touko 2013 - Marras 2018',
-          description: 'inEnergy-ohjelmiston kehitys (C# .NET, Javascript, Bootstrap).',
+          description:
+            'inEnergy-energiaohjelmiston kehitys. Käytetyt teknologiat: C# .NET ASP.NET MVC 5, Javascript, jQuery, Bootstrap, Win Forms, Kendo, DevExpress.',
         },
         {
           company: 'SportRadar AG',
           location: 'Tallinna, Viro',
           position: 'Vanhempi Ohjelmistokehittäjä',
           period: 'Huhti 2012 - Huhti 2013',
-          description: 'Urheiluvedonlyöntisovellusten kehittäminen (C# .NET WPF).',
+          description: 'Urheiluvedonlyöntisovelluksen kehittäminen (C# .NET WPF).',
         },
         {
           company: 'Baltic Hotel & Restoraunt Systems OÜ',
           location: 'Tallinna, Viro',
           position: 'Kehityspäällikkö',
           period: 'Touko 2004 - Huhti 2012',
-          description: 'IT-järjestelmät ravintoloille ja hotelleille. Palvelimien ylläpito.',
+          description:
+            'IT-järjestelmien kehittäminen ravintoloille ja hotelleille (.NET, C#, F#, Erlang, JVM, Java/Scala). Oracle, Linux ja Windows -palvelimien ylläpito.',
         },
         {
           company: 'Swedbank',
           location: 'Tallinna, Viro',
-          position: 'Ohjelmistokehittäjä',
+          position: 'Ohjelmistokehittäjä, Implementointiprosessipäällikkö',
           period: 'Tammi 2005 - Maalis 2007',
-          description: 'J2EE WEB-sovellukset PL/SQL:llä.',
+          description:
+            'J2EE WEB-sovellukset PL/SQL:llä. Käyttöönotto ja testaus BEA Weblogic -ympäristössä Sun Solaris ja RedHat -palvelimilla.',
         },
         {
           company: 'Pensioniamet',
           location: 'Tallinna, Viro',
           position: 'Ohjelmistokehittäjä',
           period: 'Huhti 1997 - Touko 2004',
-          description: 'Oracle, Windows/Linux-palvelimien ylläpito; Delphi-ohjelmat.',
+          description: 'Oracle 8.0.7/9i Windows/Linux -palvelimien ylläpito/ohjelmointi; Delphi-ohjelmat.',
         },
       ],
       education: [
@@ -1041,7 +1067,7 @@ function App() {
                 border: '3px solid #ccc',
               }}
             />
-            <h1 style={{ fontSize: '1.5rem', color: '#2c3e50' }}>{langContent.subtitle}</h1>
+            <h1 style={{ color: '#2c3e50', fontSize: '1.5rem' }}>{langContent.subtitle}</h1>
             <p style={{ color: '#666', margin: '0.25rem 0 16px 0' }}>{langContent.location}</p>
 
             <h3>{langContent.repositoriesTitle}</h3>
